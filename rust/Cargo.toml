@@ -1,0 +1,21 @@
+[package]
+name = "sigilcode"
+version = "0.1.1+a04b2b9b525bd58126b62bb66938f58b2adeb53f"
+edition = "2021"
+description = "Bytes of a known length as a sigil: one word of letters, 25 for a 256-bit hash, selected whole by a double-click, no two letters alike, in linear and constant time, with a check that picks the right one of several readings"
+license = "MIT OR Apache-2.0 OR TGPPL-1.0" # OR BOSL-1.0, see LICENSE-BOSL.txt
+repository = "https://github.com/johnservil/sigil"
+homepage = "https://github.com/johnservil/sigil"
+documentation = "https://docs.rs/sigilcode"
+readme = "README.md"
+keywords = ["encoding", "hash", "fingerprint", "unicode", "checksum"]
+categories = ["encoding"]
+# The library and the data it reads; the tests and the bench read the
+# repository's vectors and depend on its tools.
+include = ["src/**", "README.md", "alphabet.txt", "skipped.txt", "LICENSE-MIT", "LICENSE-APACHE", "LICENSE-TGPPL", "LICENSE-BOSL.txt"]
+
+[dependencies]
+
+[dev-dependencies]
+# The servil projects' one place for reading clocks (wall time and cycles per core kind), pinned by commit.
+clocks = { git = "https://github.com/johnservil/BLAKE3", rev = "83ab942a9c0bd5bd86a7f44720b7c5de905af59f" }
