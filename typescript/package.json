@@ -1,0 +1,8 @@
+{
+  "name": "sigilcode",
+  "version": "0.1.1+a04b2b9b525bd58126b62bb66938f58b2adeb53f",
+  "type": "module",
+  "main": "dist/sigilcode.js",
+  "types": "dist/sigilcode.d.ts",
+  "license": "(MIT OR Apache-2.0 OR TGPPL-1.0 OR LicenseRef-BOSL-1.0)"
+}
