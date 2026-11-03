@@ -4,6 +4,8 @@ Sigil writes bytes as a sigil: one word of letters that a person can copy
 with a double-click, recognize at a glance, and read back from a picture. A
 256-bit hash becomes 25 letters, no two of which look alike.
 
+Support me with fees on ᔑలঙᘈ: 4cDWkyHWT5M9F3bQg8v6mQwSmHgUNFSjFD6YRqxMpump
+
 ```
 BLAKE3("") in hex    af1349b9f5f9a1a6a0404dea36dcc9499bcb25c9adc112b7cc9a93cae41f3262
             in base64 rxNJufX5oaagQE3qNtzJSZvLJcmtwRK3zJqTyuQfMmI
